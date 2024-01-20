@@ -1,0 +1,136 @@
+body {
+    background-color: grey;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    border: 1px solid skyblue;
+    height: 70vh;
+    width: 60vw;
+    margin: 0 auto; 
+    background-color: skyblue;
+    border-radius: 2vw;
+    margin-bottom: 2vw;
+  }
+  
+  #title {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 2vw;
+    color: black;
+  }
+  
+  #theme {
+    margin-left: 70vw;
+    margin-bottom: 2vw;
+    height: 2vw;
+    width: 8vw;
+    border-radius: 0.5vw;
+    background-color: black;
+    color: white;
+    height: 5vh;
+    font-size: 1.5vw;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50vw;
+    margin-bottom:0.5vw;
+  }
+
+  
+  #options{
+    height: 3vw;
+    width: 50vw;
+    margin-bottom:0.5vw;
+    border-radius: 1vw;
+    background-color: pink;
+    justify-content: center;
+    font-size: 1vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+  #option1,#option2,#option3,#option4{
+    height: 7vh;
+
+  }
+  
+  #highlight,
+  #remove-highlight {
+    height: 2.8vw;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+  }
+  #highlight{
+    margin-right: 5vw;
+
+  }
+
+  .highlight-buttons {
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 4vw;
+  }
+  #header2{
+    color: white;
+    font-size:25px ;
+    margin-bottom: 4vw;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #final{
+    color: white;
+    font-size: 3vw;
+  }
+  #result{
+    color: white;
+    font-size:2vw ;
+  }
+  .result-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #restart{
+    height: 5vh;
+    width: 10vw;
+    border-radius:2vw;
+    background-color: green;
+    color: white;
+  }
+
+
+  /* CSS styling effect for title */
+  #title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 600;
+    color: transparent;
+    background-image: linear-gradient(to right, #553c9a, #ee4b2b, #00c2cb, #ff7f50, #553c9a);
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: 200%;
+    background-position: -200%;
+    animation: animated-gradient 2s infinite alternate-reverse;
+  }
+  
+  @keyframes animated-gradient {
+    to {
+      background-position: 200%;
+    }
+  }
+
+  
+  
+  
+  
+
+  
